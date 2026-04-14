@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import math
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 st.title ("Mortgage Repayment Calculator")
 st.write("### Input Data")
@@ -64,4 +64,4 @@ df = pd.DataFrame(
 st.write("### Payment Schedule")
 payments_df = df[["Year", "Remaining Balance"]].groupby("Year").min()
 #st.write(payments_df)
-st.line_chart(payments_df)
+#st.line_chart(payments_df)
