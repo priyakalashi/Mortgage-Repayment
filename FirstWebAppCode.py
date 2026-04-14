@@ -63,5 +63,5 @@ df = pd.DataFrame(
 # Display the data-frame as a chart.
 st.write("### Payment Schedule")
 payments_df = df[["Year", "Remaining Balance"]].groupby("Year").min()
-#st.write(payments_df)
+st.write(payments_df)
 #st.line_chart(payments_df)
