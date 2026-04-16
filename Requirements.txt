@@ -1,7 +1,6 @@
-pip install streamlit
-pip install numpy
-pip install pandas
-pip install math
-pip install --upgrade setuptools
-python -m pip install matplotlib
+streamlit
+numpy
+pandas
+math
+matplotlib
 
